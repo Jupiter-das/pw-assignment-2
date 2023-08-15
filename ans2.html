@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main-container {
+            height: 100vh;
+            background-color: #202020;
+            display: flex;
+            justify-content: center;
+        }
+
+        .box {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-evenly;
+            width: 35%;
+            height: 95%;
+            background-color: #f0f8ff;
+            margin-top: 1%;
+            border-radius: 3%;
+        }
+
+        .head {
+            width: 100%;
+            text-align: center;
+            margin: 0%;
+        }
+
+        .select {
+            display: block;
+            width: 92%;
+            margin-left: 2%;
+            padding: 1%;
+        }
+        
+        .input {
+            width: 92%;
+            margin-left: 2%;
+            padding: 1%;
+        }
+        .btn{
+            width: 85%;
+            margin-left: 6%;
+            padding: 1%;
+            background-color: #202020;
+            color: #f0f8ff;
+            border: none;
+        }
+        .text-3{
+            width: 100%;
+
+        }
+        .text{
+            margin-left: 2%;
+            margin-top: 3%;
+        }
+        .btn:hover{
+            background-color: #c4cbd1;
+            color: #202020;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="box">
+            <h1 class="head">Sign Up</h1>
+            <div class="text text-1">Name :</div>
+            <input type="text" name="" id="" class="input input-1">
+            <div class="text text-2">Batch :</div>
+            <select name="" id="" class="select">
+                <option value="">Sigma 2.0</option>
+                <option value="">Sigma</option>
+            </select>
+            <div class="text text-3">Age :</div>
+            <input type="number" name="" id="" class="input input-3">
+            <div class="text text-4">Email :</div>
+            <input type="email" name="" id="" class="input input-4">
+            <div class="text text-5">Password :</div>
+            <input type="password" name="" id="" class="input input-2">
+            <button class="btn">Sign Up</button>
+        </div>
+    </div>
+</body>
+
+</html>
